@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a routerLink="employees" class="p-3 mb-2 bg-danger text-white" routerLinkActive="active" class="nav-link">Employee List</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="create-employee" class="p-3 mb-2 bg-danger text-white" routerLinkActive="active" class="nav-link">Add Employee</a>
+        </li>
+    </ul>
+</nav>
+
+<h3 class="text-center"> {{title}} </h3>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+
+<footer class="text-center text-white fixed-bottom" style="background-color: #f1f1f1;">
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="">Dream Organisation</a>
+    </div>
+    <!-- Copyright -->
+</footer>
